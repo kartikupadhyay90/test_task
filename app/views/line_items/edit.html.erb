@@ -1,0 +1,6 @@
+<h1>Editing Line Item</h1>
+
+<%= render 'form' %>
+
+<%= link_to 'Show', invoice_line_item_path(invoice_id: @invoice.id, id: @line_item.id) %> |
+<%= link_to 'Back', invoice_line_items_path(@invoice) %>
